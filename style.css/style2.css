@@ -5,16 +5,24 @@
     background-repeat: no-repeat;
 }
 
+body{
+    overflow: hidden;
+}
 
 #forsiden {
     display: flex;
-    height: 100vh; /* Make the main element fill the entire viewport height */
+    height: 100vh; 
     width: 200vw;
+
 }
 
-/* Adjust width, height, and other styles as needed */
-.forside-sektion, .underside-solen {
-    flex: 1; /* Each section will take up 50% of the main element's width */
+
+.forside-sektion {
+    flex: 1;
+}
+
+.underside-solen {
+    flex: 1; 
 
 }
 

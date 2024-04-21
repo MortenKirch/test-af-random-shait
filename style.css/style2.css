@@ -1,0 +1,21 @@
+.forside-sektion{
+    background-image: url(/media/backgroundtest.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#forsiden {
+    display: flex;
+    height: 100vh; /* Make the main element fill the entire viewport height */
+    width: 200vw;
+}
+
+/* Adjust width, height, and other styles as needed */
+.forside-sektion, .underside-solen {
+    flex: 1; /* Each section will take up 50% of the main element's width */
+
+}
+
+

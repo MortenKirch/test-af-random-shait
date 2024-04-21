@@ -28,7 +28,11 @@ height: 100vh;
 width: auto;
 
 }
-
+.underside-tekst-solen{
+    width: 20vw;
+    margin-top: 10rem;
+    font-size: 1.2rem;
+}
 p{
     color: white;
     opacity: 0;

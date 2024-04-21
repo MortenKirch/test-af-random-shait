@@ -26,7 +26,8 @@ function createElements() {
     undersideSection.appendChild(buttonContainer);
 
     const undersideTekst = document.createElement("p");
-    undersideTekst.textContent = "teksten skal indsættes her";
+    undersideTekst.classList.add("underside-tekst-solen")
+    undersideTekst.textContent = "den har en overflade, der på en del områder minder meget om vores egen planet. Mars har bjerge, sletter og is ved polerne. Mars har også haft aktive vulkaner og bevægelser i overfladen, som har været med til at ændre planetens overflade.";
     undersideSection.appendChild(undersideTekst);
 
     const solensOverfladeImage = document.createElement("img");

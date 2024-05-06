@@ -4,10 +4,26 @@
       "navn": "Chokoladekage", 
       "pris": "$15"
       },
-      {"navn": "Jordbærkage", "pris": "$20"},
-      {"navn": "Vaniljekage", "pris": "$18"},
-      {"navn": "Citronkage", "pris": "$16"},
-      {"navn": "Karamelkage", "pris": "$22"}
+
+      {
+      "navn": "Jordbærkage", 
+      "pris": "$20"
+      },
+
+      {
+      "navn": "Vaniljekage", 
+      "pris": "$18"
+      },
+
+      {
+      "navn": "Citronkage", 
+      "pris": "$16"
+      },
+
+      {"navn": "Karamelkage", 
+      "pris": "$22"
+      }
+
     ]
   }
   

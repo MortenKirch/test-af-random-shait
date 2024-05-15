@@ -1,29 +1,47 @@
 {
-    "kager": [
-      {
-      "navn": "Chokoladekage", 
-      "pris": "$15"
-      },
+  "kager":[
+    { "navn": "Banoffee",
+      "billede": "/pictures/banoffee.webp",
+      "beskrivelse": "Friskskårne bananer, passionsfrugt, flødeskum, hjemmelavet saltmælkssyltetøj og bastogne",
+      "ikoner": ["/egg.png", "/gluten-med.png", "/laktose-med.png", "/noedder-med.png"],
+      "pris": 100
 
-      {
-      "navn": "Jordbærkage", 
-      "pris": "$20"
-      },
-
-      {
-      "navn": "Vaniljekage", 
-      "pris": "$18"
-      },
-
-      {
-      "navn": "Citronkage", 
-      "pris": "$16"
-      },
-
-      {"navn": "Karamelkage", 
-      "pris": "$22"
-      }
-
-    ]
-  }
-  
+    },
+    {
+      "navn": "Fragilité",
+      "billede": "/pictures/banoffee.webp",
+      "beskrivelse": "Hasselnøddemarengs, mokkasmørcreme med kaffe fra @moodcoffee_aarhus, to slags nougatmousse, spiselige blomster",
+      "ikoner":["/egg.png", "/gluten-med.png", "/laktose-med.png", "/noedder-med.png"],
+      "pris": 130
+    },
+    {
+      "navn": "Gammeldags Æblekage",
+      "billede": "/pictures/banoffee.webp",
+      "beskrivelse": "hjemmelavet sej dansk makron, en fløjlsblød saltet karamel, syrlig æblekompot og en helt igennem fantastisk creme fraiche-mousse",
+      "ikoner":["/egg.png", "/gluten-med.png", "/laktose-med.png", "/noedder-med.png"],
+      "pris": 120
+    },
+    {
+      "navn": "Hindbær tærte",
+      "billede": "/pictures/banoffee.webp",
+      "beskrivelse": "sprød tærtebund, mandelfrangipane, skarp hindbærkompot og en fløjlsblød chokoladehindbærmousse",
+      "ikoner":["/egg.png", "/gluten-med.png", "/laktose-med.png", "/noedder-med.png"],
+      "pris": 120
+    },
+    {
+      "navn": "Peach Melba",
+      "billede": "/pictures/banoffee.webp",
+      "beskrivelse": "mandelfrangipanebund, syrlig hindbær-marmelade og ferskenkompot gemt midt i en cremefraiche-vaniljemousse",
+      "ikoner": ["/egg.png", "/gluten-med.png", "/laktose-med.png", "/noedder-med.png"],
+      "pris": 120
+    },
+    {
+      "navn": "Yuzu tærte",
+      "billede": "/pictures/banoffee.webp",
+      "beskrivelse": "en sprød tærtebund, birkesvamp, syrlig lemon curd, blød yuzu-fromage og en fluffy og sød marengs",
+      "ikoner": ["/egg.png", "/gluten-med.png", "/laktose-med.png"],
+      "pris": 120
+    }
+ 
+  ]
+}

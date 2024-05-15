@@ -1,0 +1,131 @@
+
+
+#myForm{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   justify-items: center;
+
+}
+
+.produkt-figure{
+width: 20vw;
+
+}
+.produkt-overskrift{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.produkt-information{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.produkt-billede{
+width: 21vw;
+height: auto;
+}
+.produkt-ikoner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.produkt-ikoner img{
+width: 20%;
+height: auto;
+
+}
+.produkt-p{
+    font-family: monsserat;
+}
+
+.produkt-minus-button{
+    height: 30px;
+    border: 0;
+    border-radius: 20px 0px 0px 20px;
+    width: 40px;
+}
+.produkt-plus-button{
+    height: 30px;
+    border: 0;
+    border-radius: 0 20px 20px 0;
+    width: 40px;
+}
+.produkt-button-value{
+width: 30px;
+height: 30px;
+border: 0;
+text-align: center;
+margin-bottom:0.25rem;
+}
+.produkt-tilfoj-knap{
+    border: 0;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    margin: 0.25rem;
+    color: var(blue);
+}
+
+.produkt-formular{
+    margin-right: 5vw;
+    
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.produkt-formular-section{
+    width: 80vw;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+
+}
+.formular-email{
+height: 30px;
+width: 40vw;
+border: 0;
+border-radius: 10px;
+margin: 0.5rem;
+padding-left: 10px;
+}
+
+.formular-navn{
+    height: 30px;
+    width: 40vw;
+    border: 0;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding-left: 10px;
+}
+
+.formular-besked{
+width: 40vw;
+height: 20vh;
+border: 0;
+border-radius: 10px;
+padding: 10px;
+margin: 0.5rem;
+}
+
+.form{
+    text-align: center;
+}
+
+
+.orderList{
+height: 500px;
+width: 350px;
+background-color: white;
+border-radius: 8px;
+margin: 2rem;
+}

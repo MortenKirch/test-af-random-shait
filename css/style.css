@@ -83,15 +83,16 @@ margin-bottom:0.25rem;
 }
 .produkt-formular-section{
     width: 80vw;
-    background-color: aquamarine;
+    background-color: var(--lightblue);
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     margin: auto;
+    border-radius: 15px;
 
 }
 .formular-email{
-height: 30px;
+height: 40px;
 width: 40vw;
 border: 0;
 border-radius: 10px;
@@ -100,32 +101,48 @@ padding-left: 10px;
 }
 
 .formular-navn{
-    height: 30px;
+    height: 40px;
     width: 40vw;
     border: 0;
     border-radius: 10px;
-    margin: 0.5rem;
+    margin: 1rem;
     padding-left: 10px;
 }
 
 .formular-besked{
-width: 40vw;
+width: 39.5vw;
 height: 20vh;
 border: 0;
 border-radius: 10px;
 padding: 10px;
 margin: 0.5rem;
+
 }
 
 .form{
     text-align: center;
 }
 
-
+.overskrift-udfyld{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: monsserat;
+    color: var(--blue);
+}
 .orderList{
-height: 500px;
-width: 350px;
+height: 450px;
+width: 300px;
 background-color: white;
 border-radius: 8px;
 margin: 2rem;
+margin-left: 6vw;
+margin-top: 3rem;
+}
+.koeb-button{
+    width: 150px;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    
+    margin: 0.5rem; 
 }

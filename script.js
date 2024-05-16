@@ -110,7 +110,7 @@ kageData.forEach(kage => {
 
     })
     .catch(error => {
-        console.error('There was a problem with your fetch operation:', error);
+        console.error('Error:', error);
     });
 
     function displayValue(outputField, addButton) {
